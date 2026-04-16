@@ -1,64 +1,60 @@
-# 🚀 SOUTENANCE DWWM - AGENDA LTDJ
+# SOUTENANCE DWWM — AGENDA LTDJ
 
-**Présentation de soutenance pour le titre professionnel Développeur Web et Web Mobile**
+Présentation de soutenance pour le titre professionnel Développeur Web et Web Mobile (RNCP 37674).
 
-## 👨‍💻 Candidat
+## Candidat
+
 **Mariami CHADUNELI**  
-Promotion 2024-2025 - ENI École Informatique
+Promotion 2024-2025 — ENI École Informatique
 
-## 🎯 Projet
-**AGENDA LTDJ** - Système de gestion des tournois ludiques  
-*Le Temple du Jeu - Réseau Grand-Ouest*
+## Projet
 
-## 📋 Contenu de la présentation
+**AGENDA LTDJ** — Application de gestion des tournois ludiques pour Le Temple du Jeu (réseau Grand-Ouest).
 
-### I. CONTEXTE & PRÉSENTATION (10 min)
-- Mon parcours de reconversion DWWM
-- Le Temple du Jeu - Réseau 20+ boutiques
-- Analyse besoins & problématique existante
-- Objectifs fonctionnels & techniques
+Le site existant reposait sur CodeIgniter 3 et l'API Google Calendar pour afficher les événements. Les inscriptions se faisaient uniquement par téléphone, l'interface n'était pas responsive, et il n'y avait aucune gestion des places. L'objectif du stage était de refaire l'ensemble sur une stack moderne.
 
-### II. ENVIRONNEMENT TECHNIQUE (10 min)
-- Stack Laravel 12 + Vite 6 + Tailwind
-- Architecture MVC & migrations BDD
-- Base de données optimisée
-- Seeders réalistes (24 tournois)
+## Plan (35 min)
 
-### III. DÉVELOPPEMENT (11 min)
-- Backend : Contrôleurs, Modèles, API REST
-- Frontend : Blade, JavaScript ES6+, Responsive
-- Sécurité : CSRF, Validation, Auth Laravel
-- Interface admin complète (CRUD)
+### I. Contexte & présentation (10 min)
+- Parcours de reconversion DWWM
+- Le Temple du Jeu — réseau 20+ boutiques
+- Analyse des besoins et de la problématique existante
+- Objectifs fonctionnels et techniques
 
-### IV. BILAN & DÉMONSTRATION (4 min)
-- Problèmes rencontrés & solutions
-- Compétences DWWM validées (C1-C7)
-- Démonstration de l'application
-- Perspectives & évolution
+### II. Environnement technique (10 min)
+- Stack Laravel 11 + Vite 6 + Tailwind CSS
+- Architecture MVC et migrations BDD
+- Base de données optimisée avec index composites
+- Seeders réalistes — 24 tournois, 5 boutiques, 7 types de jeux
 
-## 🛠️ Stack Technique
-- **Backend**: Laravel 12.0, PHP 8.3.14
-- **Frontend**: Tailwind CSS 4.1.11, JavaScript ES6+
-- **Base de données**: MySQL 8.0
-- **Build tools**: Vite 6.2.4
-- **Serveur**: WAMP 3.2.6
+### III. Développement (11 min)
+- Backend : contrôleurs, modèles Eloquent, API REST
+- Frontend : Blade, JavaScript ES6+, design responsive
+- Sécurité : CSRF, validation serveur, authentification Laravel
+- Interface d'administration CRUD complète
 
-## 📊 Métriques du projet
-- ⏱️ **8 semaines** de stage
-- 📈 **100%** des fonctionnalités livrées
-- 🎯 **35 minutes** de présentation
-- ✅ **7 compétences** DWWM validées
+### IV. Bilan (4 min)
+- Problèmes rencontrés et solutions (dont commande QuickRestore)
+- Compétences DWWM validées (C1–C7)
+- Perspectives d'évolution
 
-## 🎨 Design
-Interface moderne avec thème futuriste, animations CSS, et design responsive pour tous les supports.
+## Stack technique
 
-## 📱 Fonctionnalités démontrées
-- Interface responsive (mobile, tablette, desktop)
-- Système d'inscription en ligne
-- Gestion des tournois et événements
-- Calendrier interactif
-- Interface d'administration
+- **Backend** : Laravel 11.9.2, PHP 8.2.26
+- **Frontend** : Tailwind CSS 4.1.11, JavaScript ES6+
+- **Base de données** : MySQL 8.0
+- **Build** : Vite 6.2.4
+- **Environnement** : WAMP 3.2.6
 
----
+## Chiffres clés
 
-*Présentation créée avec HTML5, CSS3 et JavaScript pour une expérience interactive optimale.*
+- 8 semaines de stage
+- 4 tables BDD, 47 champs, 6 index
+- 24 tournois seedés, 5 boutiques, 7 types de jeux
+- 6 contrôleurs, API REST complète
+- 7 compétences DWWM couvertes
+
+## Utilisation
+
+Ouvrir `index.html` dans un navigateur. Navigation au clavier (flèches, espace) ou via les boutons. Touche `F` pour le plein écran.
+
